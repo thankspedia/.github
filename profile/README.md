@@ -34,8 +34,8 @@ are only functions on the modules deployed in the frontend; this will
 drastically reduce pain from frontend development.
 
 It consists many new ideas to accomplish efficiency of development; such as
-`runtime-typesafety` which implements input/output validation on runtime, or as
-`vanilla-schima-validator` which allows you to find missing and wrong typed
+[runtime-typesafety][] which implements input/output validation on runtime, or as
+[vanilla-schima-validator][] which allows you to find missing and wrong typed
 field values in your JSON requests right after you did something wrong.
 
 **Kombucha.js** is zero-dependent framework; that is, all modules in
