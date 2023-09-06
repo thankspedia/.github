@@ -1,4 +1,4 @@
-# ThanksPedia Project
+# Thankspedia Project
 
-✌✌This is a repository for **ThanksPedia Project**! ✌✌
+✌✌This is a repository for **Thankspedia Project**! ✌✌
 
