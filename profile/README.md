@@ -51,8 +51,8 @@ of them is able to be used as an independend module.
 **Kombucha.js** is developped as a part of a project called [Thankspedia][].
 Thankspedia is a project to implement the infrastracture for thankfulness, not
 for money; it tries to transfer not an amount of money, but an amount of
-thankfulness. For further information about Thankspedia, please refer the
-[webssite][Thankspedia].
+thankfulness. For further information about Thankspedia, please refer its
+[website][Thankspedia].
 
 [Thankspedia]: https://github.com/thankspedia/
 
