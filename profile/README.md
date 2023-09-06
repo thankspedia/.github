@@ -1,13 +1,28 @@
   🍵 Kombucha.js
 =============
-**Kombucha.js** is the easiest and the most robust all-in-one backend API development framework ... well, at least we believe so😉.
+**Kombucha.js** is the easiest,the most robust, strongly opinionated,
+all-in-one frontend/backend API development framework.
 
-It includes JWT like encryption scheme for authentication so that it can serve API as you want with a trivial setup.
+... Well, at least, we believe so😉.
 
-It also includes input/output validation which is powered by `runtime-typesafety` with `vanilla-schima-validattor`; you can find missing and wrong typed field values in your JSON requests right after you did something wrong.
+Most functions that are usually necessary in frontend/backend development are
+already included. It can serve API as you want with a trivial setup.
+
+For example, it includes a unique frontend framework which is built upon
+React.js. It also includes  JWT like encryption scheme for authentication.
+
+In frontend application, you can access to the backend API server as if they
+are functions on the modules placed in the frontend; this will drastically
+reduce pain of frontend development.
+
+It also includes input/output validation which is powered by
+`runtime-typesafety` with `vanilla-schima-validattor`; you can find missing and
+wrong typed field values in your JSON requests right after you did something
+wrong.
 
   🐶 Features
 =============
+- Zero dependency
 - Built-in JWT like authentication scheme
 - Runtime typecheck not compile-time typecheck like TypeScript
 - SQL without object mapping
