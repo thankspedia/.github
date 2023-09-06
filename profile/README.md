@@ -4,7 +4,7 @@
 dependent, and opinionated all-in-one frontend/backend application framework.
 
 
- 🗽🗼⛩️ Design Goal 🏁
+ ⛩️ Design Goal🗼 
 ==================
 The design goal of **Kombusha.js** is to implement a reliable development
 environment without TypeScript and Object-Relational Mapping (ORM) and make the
