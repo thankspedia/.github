@@ -3,6 +3,16 @@
 **Kombucha.js** is (at least we believe) the easiest, the most robust, zero
 dependent, and opinionated all-in-one frontend/backend application framework.
 
+
+  🏁  Design Goal 🏁
+==================
+The design goal of **Kombusha.js** is to implement a reliable development
+environment without TypeScript and Object-Relational Mapping (ORM) and make the
+development process simple enough so that Vim in terminal-emulators without
+VSCode or such funcy editors is sufficient to develop large-scale systems as if
+it were AS/400.
+
+
   🐶 Features
 =============
 - Zero dependent framework
@@ -10,12 +20,6 @@ dependent, and opinionated all-in-one frontend/backend application framework.
 - Built-in JWT like authentication scheme
 - Built-in runtime typecheck/schema validator
 - NO ORM based programming SQL without object mapping
-
-The design goal of **Kombusha.js** is to implement a reliable development
-environment without TypeScript and Object-Relational Mapping (ORM) and make the
-development process simple enough so that Vim in terminal-emulators without
-VSCode or such funcy editors is sufficient to develop large-scale systems as if
-it were AS/400.
 
 In backend development, you can scalably design web API as if they are simple
 Node.js's module functions. In frontend development, you can access these API
