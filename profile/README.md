@@ -25,7 +25,7 @@ In backend development, you can scalably design web API as if they are simple
 Node.js's module functions. In frontend development, you can access these API
 as if they are simple module functions deployed as simpe ESM module.
 
-It includes a unique frontend application framework called `React-Rerenderers`
+It includes a unique frontend application framework called [react-rerenderers][]
 which frees developpers from nasty Infinite Rendering Loops, devilish Prop
 Drilling Hell, diabolical Provider Hell and other evil state.
 
@@ -41,6 +41,10 @@ field values in your JSON requests right after you did something wrong.
 **Kombucha.js** is zero-dependent framework; that is, all modules in
 **Kombucha.js** are developped by developpers of **Kombucha.js** its own. Each
 of them is able to be used as an independend module.
+
+[react-rerenderers]: https://github.com/kombucha-js/react-rerenderers/
+[vanilla-schima-validator]: https://github.com/kombucha-js/vanilla-schima-validator/
+[runtime-typesafety]: https://github.com/kombucha-js/runtime-typesafety/
 
 
 🌈 Contribution guidelines
