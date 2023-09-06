@@ -1,2 +1,4 @@
-# .github
-The repository for GitHub profile of this organization.
+# ThanksPedia Project
+
+✌✌This is a repository for **ThanksPedia Project**! ✌✌
+
