@@ -1,31 +1,37 @@
-  🍵 Kombucha.js
-=============
-**Kombucha.js** is the easiest,the most robust, strongly opinionated,
-all-in-one frontend/backend API development framework.
-
-... Well, at least, we believe so😉.
-
-Most functions that are usually necessary in frontend/backend development are
-already included. It can serve API as you want with a trivial setup.
-
-For example, it includes a unique frontend framework which is built upon
-React.js. It also includes  JWT like encryption scheme for authentication.
-
-In frontend application, you can access to the backend API server as if they
-are functions on the modules placed in the frontend; this will drastically
-reduce pain of frontend development.
-
-It also includes input/output validation which is powered by
-`runtime-typesafety` with `vanilla-schima-validattor`; you can find missing and
-wrong typed field values in your JSON requests right after you did something
-wrong.
+🍵 Kombucha.js 
+==================
+**Kombucha.js** is (at least we believe) the easiest, the most robust, zero
+dependent, and opinionated all-in-one frontend/backend application framework.
 
   🐶 Features
 =============
-- Zero dependency
+- Zero dependent framework
+- It runs out of the box
 - Built-in JWT like authentication scheme
-- Runtime typecheck not compile-time typecheck like TypeScript
-- SQL without object mapping
+- Built-in runtime typecheck/schema validator
+- NO ORM based programming SQL without object mapping
+
+In backend development, you can scalably design web API as if they are simple
+Node.js's module functions. In frontend development, you can access these API
+as if they are simple module functions deployed as simpe ESM module.
+
+It includes a unique frontend application framework called `React-Rerenderers`
+which frees developpers from nasty Infinite Rendering Loops, devilish Prop
+Drilling Hell, diabolical Provider Hell and other evil state.
+
+In frontend application, you can access to the backend API server as if they
+are only functions on the modules deployed in the frontend; this will
+drastically reduce pain from frontend development.
+
+It consists many new ideas to accomplish efficiency of development; such as
+`runtime-typesafety` which implements input/output validation on runtime, or as
+`vanilla-schima-validator` which allows you to find missing and wrong typed
+field values in your JSON requests right after you did something wrong.
+
+**Kombucha.js** is zero-dependent framework; that is, all modules in
+**Kombucha.js** are developped by developpers of **Kombucha.js** its own. Each
+of them is able to be used as an independend module.
+
 
 🌈 Contribution guidelines
 ---------------------------------------------------------------
