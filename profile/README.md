@@ -3,7 +3,7 @@
 
 **Thankspedia** 🫶 is an attempt to create an infrastructure which enables people
 to send **thankfulness**, not currency. **Thankspedia** is a pure invention of
-Mr. Kiyoshi Kurakawa who is a Chief Executive Officer of [Tokyo Technical Consultant][ttc]
+[Mr. Kiyoshi Kurakawa][ttc-kurakawa] who is a Chief Executive Officer of [Tokyo Technical Consultant][ttc]
 which is operating in Akihabara Tokyo.
 
 [ttc-kurakawa]: https://www.ttc-net.co.jp/president
