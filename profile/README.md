@@ -46,6 +46,16 @@ of them is able to be used as an independend module.
 [vanilla-schima-validator]: https://github.com/kombucha-js/vanilla-schima-validator/
 [runtime-typesafety]: https://github.com/kombucha-js/runtime-typesafety/
 
+  Thankspedia
+===============
+**Kombucha.js** is developped as a part of a project called [Thankspedia][].
+[Thankspedia][] is a project to implement the infrastracture for thankfulness,
+not for money; it, at least, tries to transfer an amount of money but an amount
+of thankfulness. For further information about [Thankspedia][], please refer the
+[webssite][Thankspedia].
+
+[Thankspedia]: https://github.com/thankspedia/
+
 
 🌈 Contribution guidelines
 ---------------------------------------------------------------
