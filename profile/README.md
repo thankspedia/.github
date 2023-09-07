@@ -3,15 +3,15 @@
 **Kombucha.js** is (at least we believe) the easiest, the most robust, zero
 dependent, and opinionated all-in-one frontend/backend application framework.
 
-
  ⛩️ Design Goal🗼 
 ==================
-The design goal of **Kombusha.js** is to implement a reliable development
-environment without TypeScript and Object-Relational Mapping (ORM) and make the
-development process simple enough so that Vim in terminal-emulators without
-VSCode or such funcy editors is sufficient to develop large-scale systems as if
-it were AS/400.
+As the design goal of **Kombusha.js**, there are five agendas.
 
+1. Implement a reliable development environment without complicating transpilers such as Babel TypeScript.
+2. Offer practical methods to access databases directly without any Object-Relational Mapping (ORM) solutions.
+3. Make the development process as simple as possible such that merely Vim in a terminal-emulator without fancy editors is sufficient.
+4. Enable developments of super-large scalable database systems as if it were [AS/400](https://en.wikipedia.org/wiki/IBM_AS/400).
+5. The applications must sustainablly run without manual maintanance for decades.
 
   🐶 Features
 =============
@@ -63,11 +63,15 @@ thankfulness. For further information about Thankspedia, please refer its
 
 **Kombucha.js** is distributed as GPL v3.0. 
 
-Please send a feedback or report an issue at [github.com](https://github.com/kombucha-js) 
+Please send feedbacks or report issues at [github.com](https://github.com/kombucha-js) 
 
-The primary maintainer is a small company in Akihabara, Tokyo.
+The primary maintainer is [Atsushi Oka][ats4u]. 
+
+I am working in a company in Akihabara, Tokyo.
 
 If you happen to pass by, please send us a message 😄
+
+[ats4u]: https://github.com/ats4u
 
 <!--
 **Here are some ideas to get you started:**
