@@ -11,8 +11,9 @@ As the design goal of **Kombusha.js**, there are five agendas.
    transpilers such as Babel TypeScript.
 2. Offer practical methods to access databases directly without any
    Object-Relational Mapping (ORM) solutions.
-3. Make the development process as simple as possible such that merely Vim in a
-   terminal-emulator without fancy editors such as VSCode or others is sufficient.
+3. Make the development process as simple as possible such that it is
+   sufficient to use only Vim in a terminal-emulator for the development. It
+   should not be necessary to use fancy editors such as VSCode or others.
 4. Enable developments of super-large scalable database systems as if it were
    [AS/400](https://en.wikipedia.org/wiki/IBM_AS/400).
 5. The applications must sustainablly run without manual maintanance for
@@ -70,11 +71,11 @@ thankfulness. For further information about Thankspedia, please refer its
 ---------------------------------------------------------------
 - how can the community get involved?
 
-**Kombucha.js** is distributed as GPL v3.0. 
+**Kombucha.js** is distributed as GPL v3.0.
 
-Please send feedbacks or report issues at [github.com](https://github.com/kombucha-js) 
+Please send feedbacks or report issues at [github.com](https://github.com/kombucha-js)
 
-The primary maintainer is [Atsushi Oka][ats4u]. 
+The primary maintainer is [Atsushi Oka][ats4u].
 
 I am working in a company in Akihabara, Tokyo.
 
