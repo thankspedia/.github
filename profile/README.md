@@ -26,6 +26,7 @@ As the design goal of **Kombusha.js**, there are five agendas.
 - Built-in runtime typecheck/schema validator
 - NO ORM based programming SQL without object mapping
 
+
   Zero-Dependent Framework
 ----------------------------
 **Kombucha.js** is (almost) zero-dependent framework; that is, Kombucha.js uses
