@@ -26,23 +26,19 @@ As the design goal of **Kombusha.js**, there are five agendas.
 - Built-in runtime typecheck/schema validator
 - NO ORM based programming SQL without object mapping
 
-
   Zero-Dependent Framework
 ----------------------------
-
 **Kombucha.js** is (almost) zero-dependent framework; that is, Kombucha.js uses
 no module from other projects.  All modules in **Kombucha.js** are developped
 by developpers of **Kombucha.js** its own. Still each of them is able to be
 used as an independend module.
 
-  Zero-Dependent Framework
-----------------------------
+  Others
+-----------------------
 In backend development, you can scalably design web API as if they are simple
 Node.js's module functions. In frontend development, you can access these API
 as if they are simple module functions deployed as simpe ESM module.
 
-  Others
------------------------
 It includes a unique frontend application framework called [react-rerenderers][]
 which frees developpers from nasty Infinite Rendering Loops, devilish Prop
 Drilling Hell, diabolical Provider Hell and other evil state.
