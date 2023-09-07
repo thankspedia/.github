@@ -12,12 +12,14 @@ As the design goal of **Kombusha.js**, there are five agendas.
 2. Offer practical methods to access databases directly without any
    Object-Relational Mapping (ORM) solutions.
 3. Make the development process as simple as possible such that it is
-   sufficient to use only Vim in a terminal-emulator for the development. It
+   sufficient to use only [Vim][] in a terminal-emulator for the development. It
    should not be necessary to use fancy editors such as VSCode or others.
 4. Enable developments of super-large scalable database systems as if it were
    [AS/400](https://en.wikipedia.org/wiki/IBM_AS/400).
 5. The applications must sustainablly run without manual maintanance for
    decades.
+
+[Vim]: https://www.vim.org/
 
   🐶 Features
 ================
