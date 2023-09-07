@@ -7,19 +7,29 @@ dependent, and opinionated all-in-one frontend/backend application framework.
 ==================
 As the design goal of **Kombusha.js**, there are five agendas.
 
-1. Implement a reliable development environment without complicating transpilers such as Babel TypeScript.
-2. Offer practical methods to access databases directly without any Object-Relational Mapping (ORM) solutions.
-3. Make the development process as simple as possible such that merely Vim in a terminal-emulator without fancy editors is sufficient.
-4. Enable developments of super-large scalable database systems as if it were [AS/400](https://en.wikipedia.org/wiki/IBM_AS/400).
-5. The applications must sustainablly run without manual maintanance for decades.
+1. Implement a reliable development environment without complicating
+   transpilers such as Babel TypeScript.
+2. Offer practical methods to access databases directly without any
+   Object-Relational Mapping (ORM) solutions.
+3. Make the development process as simple as possible such that merely Vim in a
+   terminal-emulator without fancy editors is sufficient.
+4. Enable developments of super-large scalable database systems as if it were
+   [AS/400](https://en.wikipedia.org/wiki/IBM_AS/400).
+5. The applications must sustainablly run without manual maintanance for
+   decades.
 
   🐶 Features
-=============
+================
 - Zero dependent framework
 - It runs out of the box
 - Built-in JWT like authentication scheme
 - Built-in runtime typecheck/schema validator
 - NO ORM based programming SQL without object mapping
+
+**Kombucha.js** is (almost) zero-dependent framework; that is, Kombucha.js uses
+no module from other projects.  All modules in **Kombucha.js** are developped
+by developpers of **Kombucha.js** its own. Still each of them is able to be
+used as an independend module.
 
 In backend development, you can scalably design web API as if they are simple
 Node.js's module functions. In frontend development, you can access these API
@@ -37,10 +47,6 @@ It consists many new ideas to accomplish efficiency of development; such as
 [runtime-typesafety][] which implements input/output validation on runtime, or as
 [vanilla-schima-validator][] which allows you to find missing and wrong typed
 field values in your JSON requests right after you did something wrong.
-
-**Kombucha.js** is zero-dependent framework; that is, all modules in
-**Kombucha.js** are developped by developpers of **Kombucha.js** its own. Each
-of them is able to be used as an independend module.
 
 [react-rerenderers]: https://github.com/kombucha-js/react-rerenderers/
 [vanilla-schima-validator]: https://github.com/kombucha-js/vanilla-schima-validator/
