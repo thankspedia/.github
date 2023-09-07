@@ -55,8 +55,8 @@ field values in your JSON requests right after you did something wrong.
 [vanilla-schima-validator]: https://github.com/kombucha-js/vanilla-schima-validator/
 [runtime-typesafety]: https://github.com/kombucha-js/runtime-typesafety/
 
-  Thankspedia
-===============
+  🙏🏿 🥰 Thankspedia Project 🥰 🙏🏻
+========================================
 **Kombucha.js** is developped as a part of a project called [Thankspedia][].
 Thankspedia is a project to implement an infrastracture for thankfulness, not
 for money; it tries to transfer not an amount of money, but an amount of
