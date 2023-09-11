@@ -61,11 +61,18 @@ field values in your JSON requests right after you did something wrong.
 
  Frontend Development with Kombucha.js
 ======================================
- 
+There is a convention that the every **Kombucha.js** frontend application should
+follow. For further information, see [Frontend Development with Kombucha.js][frontend].
+
 
  Backend Development with Kombucha.js
 ======================================
+There is a convention which defines the form of every module for the backend
+application with **Kombucha.js**. For further information, please see [Backend Development with Kombucha.js][backend].
 
+
+[frontend]: README-FRONTEND-DEVELOPMENT.md
+[backend]: README-BACKEND-DEVELOPMENT.md
 
 
 
