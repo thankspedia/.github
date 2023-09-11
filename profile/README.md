@@ -71,9 +71,8 @@ There is a convention which defines the form of every module for the backend
 application with **Kombucha.js**. For further information, please see [Backend Development with Kombucha.js][backend].
 
 
-[frontend]: README-FRONTEND-DEVELOPMENT.md
-[backend]: README-BACKEND-DEVELOPMENT.md
-
+[frontend]: https://github.com/kombucha-js/.github/wiki/Backend-Development
+[backend]: https://github.com/kombucha-js/.github/wiki/Frontend-Development
 
 
   🙏🏿 🥰 Thankspedia Project 🥰 🙏🏻
