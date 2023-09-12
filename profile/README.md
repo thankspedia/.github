@@ -5,7 +5,7 @@ dependent, and opinionated all-in-one frontend/backend application framework.
 
  ⛩️ Design Goal🗼 
 ==================
-As the design goal of **Kombusha.js**, there are the siz agendas.
+As the design goal of **Kombusha.js**, there are the six agendas.
 
 1. Implement a reliable development environment without complicating
    transpilers such as Babel TypeScript.
