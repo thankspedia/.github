@@ -3,6 +3,14 @@
 **Kombucha.js** is (at least we believe) the easiest, the most robust, zero
 dependent, and opinionated all-in-one frontend/backend application framework.
 
+  🐶 Features
+================
+- Zero dependent framework
+- It runs out of the box
+- Built-in JWT like authentication scheme
+- Built-in runtime typecheck/schema validator
+- NO ORM based programming SQL without object mapping
+
  ⛩️ Design Goal🗼 
 ==================
 As the design goal of **Kombusha.js**, there are the six agendas.
@@ -22,15 +30,6 @@ As the design goal of **Kombusha.js**, there are the six agendas.
    decades.
 
 [Vim]: https://www.vim.org/
-
-  🐶 Features
-================
-- Zero dependent framework
-- It runs out of the box
-- Built-in JWT like authentication scheme
-- Built-in runtime typecheck/schema validator
-- NO ORM based programming SQL without object mapping
-
 
 ### Zero-Dependent Framework
 **Kombucha.js** is (almost) zero-dependent framework; that is, Kombucha.js only uses
