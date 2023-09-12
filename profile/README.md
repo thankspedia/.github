@@ -63,8 +63,8 @@ field values in your JSON requests right after you did something wrong.
 
  Frontend Development with Kombucha.js
 ======================================
-There is a convention that the every **Kombucha.js** frontend application should
-follow. For further information, see [Frontend Development with Kombucha.js][frontend].
+Kombucha.js defines a convention which every **Kombucha.js** frontend application should
+follow. It is described in [Frontend Development with Kombucha.js][frontend].
 
 
  Backend Development with Kombucha.js
