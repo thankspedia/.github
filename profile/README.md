@@ -5,18 +5,19 @@ dependent, and opinionated all-in-one frontend/backend application framework.
 
  ⛩️ Design Goal🗼 
 ==================
-As the design goal of **Kombusha.js**, there are five agendas.
+As the design goal of **Kombusha.js**, there are the siz agendas.
 
 1. Implement a reliable development environment without complicating
    transpilers such as Babel TypeScript.
-2. Offer practical methods to access databases directly without any
+2. Offer an infrastructure to implement Remote Procedure Call between frontend applications and backend applications so that a frontend application can access to methods on an backend application as if    the methods are deployed in the frontend application.
+3. Offer practical methods to access databases directly without any
    Object-Relational Mapping (ORM) solutions.
-3. Make the development process as simple as possible such that it is
+4. Make the development process as simple as possible such that it is
    sufficient to use only [Vim][] in a terminal-emulator for the development. It
    should not be necessary to use fancy editors such as VSCode or others.
-4. Enable developments of super-large scalable database systems as if it were
+5. Enable developments of super-large scalable database systems as if it were
    [AS/400](https://en.wikipedia.org/wiki/IBM_AS/400).
-5. The applications must sustainablly run without manual maintanance for
+6. The applications must sustainablly run without manual maintanance for
    decades.
 
 [Vim]: https://www.vim.org/
