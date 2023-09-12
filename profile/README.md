@@ -31,8 +31,9 @@ As the design goal of **Kombusha.js**, there are five agendas.
 
 
 ### Zero-Dependent Framework
-**Kombucha.js** is (almost) zero-dependent framework; that is, Kombucha.js uses
-no module from other projects.  All modules in **Kombucha.js** are developped
+**Kombucha.js** is (almost) zero-dependent framework; that is, Kombucha.js only uses
+the modules which are developped within Kombucha.js itself and adopts no module from other projects.
+All modules in **Kombucha.js** are developped
 by developpers of **Kombucha.js** its own. Still each of them is able to be
 used as an independend module.
 
