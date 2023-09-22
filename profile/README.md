@@ -42,17 +42,18 @@ As the design goal of **Kombucha.js**, there are seven agendas.
 
 [TOC-BEGIN]: <> ""
 
-
 -   [🍵 Kombucha.js 🍵](#kombucha.js)
     -   [🐶 Features 🐶](#features)
     -   [🗼 Design Goal 🗼](#design-goal)
     -   [Table of Contents](#table-of-contents)
+    -   [Description](#description)
         -   [Zero-Dependent Framework](#zero-dependent-framework)
         -   [Others](#others)
     -   [Frontend Development with Kombucha.js](#frontend-development-with-kombucha.js)
--   [Backend Development with Kombucha.js](#backend-development-with-kombucha.js)
+    -   [Backend Development with Kombucha.js](#backend-development-with-kombucha.js)
     -   [🙏🏿 🥰 Thankspedia Project 🥰 🙏🏻](#thankspedia-project)
     -   [🌈 Contribution guidelines](#contribution-guidelines)
+
 
 [TOC-END]: <> ""
 [TOC-COMMAND]: <> "r! cat profile/README.md | pandoc -s --toc --wrap=none  --from=markdown --to=markdown | sed -n '1,/^ *$/p'"
