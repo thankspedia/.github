@@ -105,7 +105,7 @@ documentation.
 
 
  Backend Development with Kombucha.js
-======================================
+---------------------------------------
 There is a convention which defines the form of every module for the backend
 application with **Kombucha.js**. For further information, please see [Backend Development with Kombucha.js][backend].
 
