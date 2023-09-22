@@ -68,13 +68,16 @@ field values in your JSON requests right after you did something wrong.
  Frontend Development with Kombucha.js
 ======================================
 
-Kombucha.js recommends [React-Rerenderers.js][rerenderers] as a frontend
-application framework. It should preferably, but not necessarily be used in
-Kombucha.js frontend applications.
+[React-Rerenderers.js][rerenderers] is a simple and effective framework for
+frontend application development.
 
-Rerenderers define some coding conventions. Kombucha.js recommends applications
-to follow the conventions. For further information about the conventions, see
-[React-Rerenderers.js][rerenderers] official documentation.
+Kombucha.js recommends [React-Rerenderers.js][rerenderers].  It should
+preferably, but not necessarily be used in Kombucha.js frontend applications.
+
+[React-Rerenderers.js][rerenderers] define some coding conventions. Kombucha.js
+recommends applications to follow the conventions. For further information
+about the conventions, see [React-Rerenderers.js][rerenderers] official
+documentation.
 
 
  Backend Development with Kombucha.js
