@@ -1,13 +1,32 @@
  🍵 Kombucha.js 🍵
 ===================
+
 **Kombucha.js** is (at least we believe) the easiest, the most robust,
-zero-dependent, and opinionated all-in-one frontend/backend application
+zero-dependent, and strongly opinionated all-in-one frontend/backend application
 framework.
+
+With Kombucha.js, you can scalably design web API methods and the methods can be
+deployed with minimum overhead. Frontend applications can access to the API
+methods with minimum overhead as if they are general functions deployed in ESM
+modules.
+
+It includes many new ideas to accomplish efficiency of development; such as
+[runtime-typesafety][] which implements input/output validation on runtime, or
+as [vanilla-schima-validator][] which allows you to find missing and wrong typed
+field values in your JSON requests right after you did something wrong.
+
+It also includes a unique frontend application framework called [React-Rerenderers.js][rerenderers]
+which frees developers from annoying problems which you often encounter in
+React.js application development such as Infinite Rendering Loops, Prop Drilling
+problem, Provider Hell and other problems. For further information, see
+[React-Rerenderers.js][rerenderers].
 
   🐶 Features 🐶
 -----------------
-- Zero dependent framework
 - It runs out of the box
+- Very unique architecture which offers you simplicity in extreme
+- Prioritize durability and robustness
+- Zero-dependent
 - Built-in JWT like authentication scheme
 - Built-in runtime typecheck/schema validator
 - NO ORM based programming SQL without object mapping
@@ -42,54 +61,17 @@ As the design goal of **Kombucha.js**, there are seven agendas.
 
 [TOC-BEGIN]: <> ""
 
--   [🍵 Kombucha.js 🍵](#kombucha.js)
-    -   [🐶 Features 🐶](#features)
-    -   [🗼 Design Goal 🗼](#design-goal)
-    -   [Table of Contents](#table-of-contents)
-    -   [Description](#description)
-        -   [Zero-Dependent Framework](#zero-dependent-framework)
-        -   [Others](#others)
-    -   [Frontend Development with Kombucha.js](#frontend-development-with-kombucha.js)
-    -   [Backend Development with Kombucha.js](#backend-development-with-kombucha.js)
-    -   [🙏🏿 🥰 Thankspedia Project 🥰 🙏🏻](#thankspedia-project)
-    -   [🌈 Contribution guidelines](#contribution-guidelines)
-
 
 [TOC-END]: <> ""
 [TOC-COMMAND]: <> "r! cat profile/README.md | pandoc -s --toc --wrap=none  --from=markdown --to=markdown | sed -n '1,/^ *$/p'"
 
-
- Description
-------------------
-
-### Zero-Dependent Framework
-**Kombucha.js** is (almost) zero-dependent framework; that is, Kombucha.js only
-uses the modules which are developed within Kombucha.js itself and adopts no
-module from other projects.  All modules in **Kombucha.js** are developed by
-developers of **Kombucha.js** its own while each of them is also able to be
-used as an independent module.
-
 ### Others
-In backend development, you can scalably design web API as if they are simple
-Node.js's module functions. In frontend development, you can access these API
-as if they are simple module functions deployed as simple ESM module.
 
-It includes a unique frontend application framework called [React-Rerenderers.js][rerenderers]
-which free developers from nasty Infinite Rendering Loops, devilish Prop
-Drilling Hell, diabolical Provider Hell and other evil state.
 
-In frontend application, you can access to the backend API server as if they
-are only functions on the modules deployed in the frontend; this will
-drastically reduce pain from frontend development.
 
-It consists many new ideas to accomplish efficiency of development; such as
-[runtime-typesafety][] which implements input/output validation on runtime, or as
-[vanilla-schima-validator][] which allows you to find missing and wrong typed
-field values in your JSON requests right after you did something wrong.
-
-[rerenderers]: https://github.com/kombucha-js/react-rerenderers/
-[vanilla-schima-validator]: https://github.com/kombucha-js/vanilla-schima-validator/
-[runtime-typesafety]: https://github.com/kombucha-js/runtime-typesafety/
+[rerenderers]:               https://github.com/kombucha-js/react-rerenderers/
+[vanilla-schima-validator]:  https://github.com/kombucha-js/vanilla-schima-validator/
+[runtime-typesafety]:        https://github.com/kombucha-js/runtime-typesafety/
 
 
  Frontend Development with Kombucha.js
