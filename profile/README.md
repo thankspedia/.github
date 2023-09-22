@@ -101,21 +101,21 @@ Kombucha.js consists fifteen modules.
 | [mixin-prototypes][mixin-prototypes]                                    | An Implementation of Multiple Inheritance                                              |
 | [Asynchronous-Context][asynchronous-context]                            | The Super Class for the Objects defines All Backend API Methods                        |
 | [Asynchronous-Context-Backend][asynchronous-context-backend]            |                                                                                        |
-| [Asynchronous-Context-Frontend][asynchronous-context-frontend]          |                                                                                        |
+| [Authentication-Context][authentication-context]                        |                                                                                        |
+| [Database-Postgresql-Context][database-postgresql-context]              | Offering a way to access PostgreSQL database servers                                   |
+| [database-postgresql-query-builder][database-postgresql-query-builder]  | An utility to build queries for PostgreSQL automatically                               |
+| [crypto-web-token][crypto-web-token]                                    | Implementing JWT like web tokens                                                       |
 | [prevent-undefined][prevent-undefined]                                  |                                                                                        |
 | [fold-args][fold-args]                                                  |                                                                                        |
 | [runtime-typesafety][runtime-typesafety]                                |                                                                                        |
-| [database-postgresql-query-builder][database-postgresql-query-builder]  |                                                                                        |
 | [vanilla-schema-validator][vanilla-schema-validator]                    | A non-opinionated JavaScript schema validator/duck-typing based runtime type detector  |
 | [sql-named-parameters][sql-named-parameters]                            |                                                                                        |
 | [sqlmacro][sqlmacro]                                                    |                                                                                        |
-| [authentication-context][authentication-context]                        |                                                                                        |
-| [database-postgresql-context][database-postgresql-context]              |                                                                                        |
-| [crypto-web-token][crypto-web-token]                                    |                                                                                        |
 
 
 [rerenderers]:                       https://github.com/kombucha-js/react-rerenderers/
 [react-rerenderers]:                 https://github.com/kombucha-js/react-rerenderers/
+[asynchronous-context]:              https://github.com/kombucha-js/asynchronous-context/
 [asynchronous-context-backend]:      https://github.com/kombucha-js/asynchronous-context-backend/
 [prevent-undefined]:                 https://github.com/kombucha-js/prevent-undefined/
 [fold-args]:                         https://github.com/kombucha-js/fold-args/
@@ -126,10 +126,8 @@ Kombucha.js consists fifteen modules.
 [sqlmacro]:                          https://github.com/kombucha-js/sqlmacro/
 [mixin-prototypes]:                  https://github.com/kombucha-js/mixin-prototypes/
 [authentication-context]:            https://github.com/kombucha-js/authentication-context/
-[asynchronous-context]:              https://github.com/kombucha-js/asynchronous-context/
 [database-postgresql-context]:       https://github.com/kombucha-js/database-postgresql-context/
 [crypto-web-token]:                  https://github.com/kombucha-js/crypto-web-token/
-[asynchronous-context-frontend]:     https://github.com/kombucha-js/asynchronous-context-frontend/
 [randomcat]:                         https://github.com/kombucha-js/randomcat/
 [beep]:                              https://github.com/kombucha-js/beep/
 
