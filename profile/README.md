@@ -94,23 +94,23 @@ application with **Kombucha.js**. For further information, please see [Backend D
 
 Kombucha.js consists fifteen modules.
 
-| Name                                                                    |                                     |
-| ----------------------------------------------------------------------  | ----------------------------------  |
-| [React-Rerenderers.js][react-rerenderers]                               |                                     |
-| [Asynchronous-Context][asynchronous-context]                            |                                     |
-| [Asynchronous-Context-Backend][asynchronous-context-backend]            |                                     |
-| [Asynchronous-Context-Frontend][asynchronous-context-frontend]          |                                     |
-| [prevent-undefined][prevent-undefined]                                  |                                     |
-| [fold-args][fold-args]                                                  |                                     |
-| [runtime-typesafety][runtime-typesafety]                                |                                     |
-| [database-postgresql-query-builder][database-postgresql-query-builder]  |                                     |
-| [vanilla-schema-validator][vanilla-schema-validator]                    |                                     |
-| [sql-named-parameters][sql-named-parameters]                            |                                     |
-| [sqlmacro][sqlmacro]                                                    |                                     |
-| [mixin-prototypes][mixin-prototypes]                                    |                                     |
-| [authentication-context][authentication-context]                        |                                     |
-| [database-postgresql-context][database-postgresql-context]              |                                     |
-| [crypto-web-token][crypto-web-token]                                    |                                     |
+| Name                                                                    | Description                                                            |
+| ----------------------------------------------------------------------  | ----------------------------------                                     |
+| [React-Rerenderers.js][react-rerenderers]                               | A Framework for Frontend Applications                                  |
+| [mixin-prototypes][mixin-prototypes]                                    | An Implementation of Multiple Inheritance                              |
+| [Asynchronous-Context][asynchronous-context]                            | The Super Class for the Objects defines All Backend API Methods        |
+| [Asynchronous-Context-Backend][asynchronous-context-backend]            |                                                                        |
+| [Asynchronous-Context-Frontend][asynchronous-context-frontend]          |                                                                        |
+| [prevent-undefined][prevent-undefined]                                  |                                                                        |
+| [fold-args][fold-args]                                                  |                                                                        |
+| [runtime-typesafety][runtime-typesafety]                                |                                                                        |
+| [database-postgresql-query-builder][database-postgresql-query-builder]  |                                                                        |
+| [vanilla-schema-validator][vanilla-schema-validator]                    |                                                                        |
+| [sql-named-parameters][sql-named-parameters]                            |                                                                        |
+| [sqlmacro][sqlmacro]                                                    |                                                                        |
+| [authentication-context][authentication-context]                        |                                                                        |
+| [database-postgresql-context][database-postgresql-context]              |                                                                        |
+| [crypto-web-token][crypto-web-token]                                    |                                                                        |
 
 
 [rerenderers]:                       https://github.com/kombucha-js/react-rerenderers/
