@@ -1,18 +1,19 @@
-🍵 Kombucha.js 
-==================
-**Kombucha.js** is (at least we believe) the easiest, the most robust, zero
-dependent, and opinionated all-in-one frontend/backend application framework.
+ 🍵 Kombucha.js 🍵
+===================
+**Kombucha.js** is (at least we believe) the easiest, the most robust,
+zero-dependent, and opinionated all-in-one frontend/backend application
+framework.
 
-  🐶 Features
-================
+  🐶 Features 🐶
+-----------------
 - Zero dependent framework
 - It runs out of the box
 - Built-in JWT like authentication scheme
 - Built-in runtime typecheck/schema validator
 - NO ORM based programming SQL without object mapping
 
- ⛩️ Design Goal🗼 
-==================
+ 🗼 Design Goal 🗼
+-------------------
 As the design goal of **Kombucha.js**, there are seven agendas.
 
 1. Enable development both frontend applications and backend applications
@@ -34,6 +35,28 @@ As the design goal of **Kombucha.js**, there are seven agendas.
    decades.
 
 [Vim]: https://www.vim.org/
+
+
+ Table of Contents
+------------------------------------
+
+[TOC-BEGIN]: <> ""
+
+-   [🍵 Kombucha.js](#kombucha.js)
+-   [🐶 Features](#features)
+-   [⛩️ Design Goal🗼](#design-goal)
+    -   [Table of Contents](#table-of-contents)
+        -   [Zero-Dependent Framework](#zero-dependent-framework)
+        -   [Others](#others)
+-   [Frontend Development with Kombucha.js](#frontend-development-with-kombucha.js)
+-   [Backend Development with Kombucha.js](#backend-development-with-kombucha.js)
+-   [🙏🏿 🥰 Thankspedia Project 🥰 🙏🏻](#thankspedia-project)
+    -   [🌈 Contribution guidelines](#contribution-guidelines)
+
+
+[TOC-END]: <> ""
+[TOC-COMMAND]: <> "r! cat profile/README.md | pandoc -s --toc --wrap=none  --from=markdown --to=markdown | sed -n '1,/^ *$/p'"
+
 
 ### Zero-Dependent Framework
 **Kombucha.js** is (almost) zero-dependent framework; that is, Kombucha.js only
@@ -66,13 +89,11 @@ field values in your JSON requests right after you did something wrong.
 
 
  Frontend Development with Kombucha.js
-======================================
+----------------------------------------
 
-[React-Rerenderers.js][rerenderers] is a simple and effective framework for
-frontend application development.
-
-Kombucha.js recommends [React-Rerenderers.js][rerenderers].  It should
-preferably, but not necessarily be used in Kombucha.js frontend applications.
+[React-Rerenderers.js][rerenderers] is a simple and yet effective framework for
+frontend application development. It should preferably, but not necessarily be
+used in Kombucha.js frontend applications.
 
 [React-Rerenderers.js][rerenderers] define some coding conventions. Kombucha.js
 recommends applications to follow the conventions. For further information
@@ -92,7 +113,7 @@ application with **Kombucha.js**. For further information, please see [Backend D
 
 
   🙏🏿 🥰 Thankspedia Project 🥰 🙏🏻
-========================================
+----------------------------------------
 **Kombucha.js** is developed as a part of a project called [Thankspedia][].
 Thankspedia is a project to implement an infrastructure for thankfulness, not
 for money; it tries to transfer not an amount of money, but an amount of
