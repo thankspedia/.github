@@ -23,11 +23,11 @@ problem, Provider Hell and other problems. For further information, see
 
   🐶 Features 🐶
 -----------------
+- [Babel Free](https://art-deco.github.io/nodetools/babel-when-open-source-is-not-free-sofware.html)
 - It runs out of the box
 - Very unique architecture which offers you simplicity in extreme
-- Prioritize durability and robustness
+- Prioritize durability and robustness than easiness
 - Zero-dependent
-- [Babel Free](https://art-deco.github.io/nodetools/babel-when-open-source-is-not-free-sofware.html)
 - Built-in JWT like authentication scheme
 - Built-in runtime typecheck/schema validator
 - NO ORM based programming SQL without object mapping
