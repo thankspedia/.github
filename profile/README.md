@@ -12,7 +12,7 @@ modules.
 
 It includes many new ideas to accomplish efficiency of development; such as
 [runtime-typesafety][] which implements input/output validation on runtime, or
-as [vanilla-schima-validator][] which allows you to find missing and wrong typed
+as [vanilla-schema-validator][] which allows you to find missing and wrong typed
 field values in your JSON requests right after you did something wrong.
 
 It also includes a unique frontend application framework called [React-Rerenderers.js][rerenderers]
