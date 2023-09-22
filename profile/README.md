@@ -94,6 +94,8 @@ application with **Kombucha.js**. For further information, please see [Backend D
 
 Kombucha.js consists fifteen modules.
 
+| Name                                                                    |                                     |
+| ----------------------------------------------------------------------  | ----------------------------------  |
 | [React-Rerenderers.js][react-rerenderers]                               |                                     |
 | [Asynchronous-Context][asynchronous-context]                            |                                     |
 | [Asynchronous-Context-Backend][asynchronous-context-backend]            |                                     |
