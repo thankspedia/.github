@@ -108,7 +108,7 @@ Kombucha.js consists fifteen modules.
 | [prevent-undefined][prevent-undefined]                                  | Throw an error when it detected an access to a non-existing field                              |
 | [fold-args][fold-args]                                                  | Define a stable protocol to implemenent named arguments for methods                            |
 | [runtime-typesafety][runtime-typesafety]                                | Watch for input and output of methods and throw an error when it detected an unexpected value  |
-| [vanilla-schema-validator][vanilla-schema-validator]                    | A non-opinionated JavaScript schema validator/duck-typing based runtime type detector          |
+| [vanilla-schema-validator][vanilla-schema-validator]                    | A non-opinionated JavaScript schema validator; or a duck-typing runtime-type detector          |
 | [sql-named-parameters][sql-named-parameters]                            | Replace all keyword starts with a dollar sign as a named-parameter in SQL                      |
 | [sqlmacro][sqlmacro]                                                    | Implement ASP-like syntax in SQL                                                               |
 
