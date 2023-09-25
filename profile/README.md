@@ -93,10 +93,10 @@ application with **Kombucha.js**. For further information, please see [Backend D
  Modules
 ------------------------------------
 
-Kombucha.js consists fifteen modules.
+Kombucha.js consists fourteen modules.
 
 | Name                                                                    | Description                                                                                    |
-| ----------------------------------------------------------------------  | -------------------------------------------------------------------------------------------    |
+| ----------------------------------------------------------------------  | ---------------------------------------------------------------------------------------------  |
 | [React-Rerenderers.js][react-rerenderers]                               | A framework for frontend applications                                                          |
 | [mixin-prototypes][mixin-prototypes]                                    | An implementation of multiple inheritance                                                      |
 | [Asynchronous-Context][asynchronous-context]                            | The super class for the objects defines all backend api methods                                |
@@ -132,7 +132,6 @@ Kombucha.js consists fifteen modules.
 [beep]:                              https://github.com/kombucha-js/beep/
 
 [LIST-COMMAND]: <> "gh repo list --json 'url' kombucha-js --jq '.[].url'"
-
 
 
 
