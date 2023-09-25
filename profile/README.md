@@ -104,7 +104,7 @@ Kombucha.js consists fourteen modules.
 | [Authentication-Context][authentication-context]                        | Offer an abstract interface to implement login and logout                                      |
 | [Database-Postgresql-Context][database-postgresql-context]              | Offer a way to access PostgreSQL database servers                                              |
 | [database-postgresql-query-builder][database-postgresql-query-builder]  | An utility to build queries for PostgreSQL automatically                                       |
-| [crypto-web-token][crypto-web-token]                                    | Implementing JWT like web tokens                                                               |
+| [crypto-web-token][crypto-web-token]                                    | Implement a JWT-like web token framework                                                       |
 | [prevent-undefined][prevent-undefined]                                  | Throw an error when it detected an access to a non-existing field                              |
 | [fold-args][fold-args]                                                  | Define a stable protocol to implemenent named arguments for methods                            |
 | [runtime-typesafety][runtime-typesafety]                                | Watch for input/output of methods and throw an error when it detected an unexpected value      |
