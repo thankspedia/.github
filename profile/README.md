@@ -100,7 +100,7 @@ Kombucha.js consists fifteen modules.
 | [React-Rerenderers.js][react-rerenderers]                               | A framework for frontend applications                                                          |
 | [mixin-prototypes][mixin-prototypes]                                    | An implementation of multiple inheritance                                                      |
 | [Asynchronous-Context][asynchronous-context]                            | The super class for the objects defines all backend api methods                                |
-| [Asynchronous-Context-Backend][asynchronous-context-backend]            | A RPC-like framework for secure transactions between frontend and backend via https            |
+| [Asynchronous-Context-RPC][asynchronous-context-backend]                | A RPC-like framework for secure transactions between frontend and backend via https            |
 | [Authentication-Context][authentication-context]                        | Offer an abstract interface to implement login and logout                                      |
 | [Database-Postgresql-Context][database-postgresql-context]              | Offer a way to access PostgreSQL database servers                                              |
 | [database-postgresql-query-builder][database-postgresql-query-builder]  | An utility to build queries for PostgreSQL automatically                                       |
