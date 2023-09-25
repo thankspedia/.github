@@ -93,7 +93,7 @@ application with **Kombucha.js**. For further information, please see [Backend D
  Modules
 ------------------------------------
 
-Kombucha.js consists fourteen modules.
+Kombucha.js consists sixteen modules.
 
 | Name                                                                    | Description                                                                                    |
 | ----------------------------------------------------------------------  | ---------------------------------------------------------------------------------------------  |
@@ -111,7 +111,11 @@ Kombucha.js consists fourteen modules.
 | [vanilla-schema-validator][vanilla-schema-validator]                    | A non-opinionated JavaScript schema validator; or a duck-typing runtime-type detector          |
 | [sql-named-parameters][sql-named-parameters]                            | Replace all keyword starts with a dollar sign as a named-parameter in SQL                      |
 | [sqlmacro][sqlmacro]                                                    | Implement ASP-like syntax in SQL                                                               |
+| [randomcat][randomcat]                                                  | An additional module which offers a function to generate a name of a cat randomly              |
+| [beep][beep]                                                            | An additional module to play a beep tone with a specified musical pitch                        |
 
+[randomcat]:                         https://github.com/kombucha-js/randomcat/
+[beep]:                              https://github.com/kombucha-js/beep/
 
 [rerenderers]:                       https://github.com/kombucha-js/react-rerenderers/
 [react-rerenderers]:                 https://github.com/kombucha-js/react-rerenderers/
