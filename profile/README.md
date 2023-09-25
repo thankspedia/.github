@@ -95,22 +95,22 @@ application with **Kombucha.js**. For further information, please see [Backend D
 
 Kombucha.js consists fifteen modules.
 
-| Name                                                                    | Description                                                                            |
-| ----------------------------------------------------------------------  | ----------------------------------                                                     |
-| [React-Rerenderers.js][react-rerenderers]                               | A Framework for Frontend Applications                                                  |
-| [mixin-prototypes][mixin-prototypes]                                    | An Implementation of Multiple Inheritance                                              |
-| [Asynchronous-Context][asynchronous-context]                            | The Super Class for the Objects defines All Backend API Methods                        |
-| [Asynchronous-Context-Backend][asynchronous-context-backend]            |                                                                                        |
-| [Authentication-Context][authentication-context]                        |                                                                                        |
-| [Database-Postgresql-Context][database-postgresql-context]              | Offering a way to access PostgreSQL database servers                                   |
-| [database-postgresql-query-builder][database-postgresql-query-builder]  | An utility to build queries for PostgreSQL automatically                               |
-| [crypto-web-token][crypto-web-token]                                    | Implementing JWT like web tokens                                                       |
-| [prevent-undefined][prevent-undefined]                                  |                                                                                        |
-| [fold-args][fold-args]                                                  |                                                                                        |
-| [runtime-typesafety][runtime-typesafety]                                |                                                                                        |
-| [vanilla-schema-validator][vanilla-schema-validator]                    | A non-opinionated JavaScript schema validator/duck-typing based runtime type detector  |
-| [sql-named-parameters][sql-named-parameters]                            |                                                                                        |
-| [sqlmacro][sqlmacro]                                                    |                                                                                        |
+| Name                                                                    | Description                                                                                    |
+| ----------------------------------------------------------------------  | ----------------------------------                                                             |
+| [React-Rerenderers.js][react-rerenderers]                               | A framework for frontend applications                                                          |
+| [mixin-prototypes][mixin-prototypes]                                    | An implementation of multiple inheritance                                                      |
+| [Asynchronous-Context][asynchronous-context]                            | The super class for the objects defines all backend api methods                                |
+| [Asynchronous-Context-Backend][asynchronous-context-backend]            | A RPC-like framework for secure transactions between frontend and backend via https            |
+| [Authentication-Context][authentication-context]                        | Offer an interface to login and logout                                                         |
+| [Database-Postgresql-Context][database-postgresql-context]              | Offer a way to access PostgreSQL database servers                                              |
+| [database-postgresql-query-builder][database-postgresql-query-builder]  | An utility to build queries for PostgreSQL automatically                                       |
+| [crypto-web-token][crypto-web-token]                                    | Implementing JWT like web tokens                                                               |
+| [prevent-undefined][prevent-undefined]                                  | Throw an error when it detected an access to a non-existing field                              |
+| [fold-args][fold-args]                                                  | Define a stable protocol to implemenent named arguments for methods                            |
+| [runtime-typesafety][runtime-typesafety]                                | Watch for input and output of methods and throw an error when it detected an unexpected value  |
+| [vanilla-schema-validator][vanilla-schema-validator]                    | A non-opinionated JavaScript schema validator/duck-typing based runtime type detector          |
+| [sql-named-parameters][sql-named-parameters]                            | Replace all keyword starts with a dollar sign as a named-parameter in SQL                      |
+| [sqlmacro][sqlmacro]                                                    | Implement ASP-like syntax in SQL                                                               |
 
 
 [rerenderers]:                       https://github.com/kombucha-js/react-rerenderers/
