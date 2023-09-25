@@ -99,8 +99,8 @@ Kombucha.js consists fourteen modules.
 | ----------------------------------------------------------------------  | ---------------------------------------------------------------------------------------------  |
 | [React-Rerenderers.js][react-rerenderers]                               | A framework for frontend applications                                                          |
 | [mixin-prototypes][mixin-prototypes]                                    | An implementation of multiple inheritance                                                      |
-| [Asynchronous-Context][asynchronous-context]                            | The super class for the objects defines all backend api methods                                |
-| [Asynchronous-Context-RPC][asynchronous-context-backend]                | A RPC-like framework for secure transactions between frontend and backend via https            |
+| [Asynchronous-Context][asynchronous-context]                            | The super class for the objects defines all backend API methods                                |
+| [Asynchronous-Context-RPC][asynchronous-context-rpc]                    | A RPC-like framework for secure transactions between frontend and backend via https            |
 | [Authentication-Context][authentication-context]                        | Offer an abstract interface to implement login and logout                                      |
 | [Database-Postgresql-Context][database-postgresql-context]              | Offer a way to access PostgreSQL database servers                                              |
 | [database-postgresql-query-builder][database-postgresql-query-builder]  | An utility to build queries for PostgreSQL automatically                                       |
@@ -116,7 +116,7 @@ Kombucha.js consists fourteen modules.
 [rerenderers]:                       https://github.com/kombucha-js/react-rerenderers/
 [react-rerenderers]:                 https://github.com/kombucha-js/react-rerenderers/
 [asynchronous-context]:              https://github.com/kombucha-js/asynchronous-context/
-[asynchronous-context-backend]:      https://github.com/kombucha-js/asynchronous-context-backend/
+[asynchronous-context-rpc]:          https://github.com/kombucha-js/asynchronous-context-rpc/
 [prevent-undefined]:                 https://github.com/kombucha-js/prevent-undefined/
 [fold-args]:                         https://github.com/kombucha-js/fold-args/
 [runtime-typesafety]:                https://github.com/kombucha-js/runtime-typesafety/
