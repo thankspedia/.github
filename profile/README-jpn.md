@@ -16,7 +16,7 @@
 - 自動バリデーション
 - ORM利用を強制しないデータベース駆動の開発
 - 実行時型チェック
-- フロントエンドは高速な Vine を採用
+- フロントエンドでは、高速なVineを採用
 - バベルへの依存性を排除
 - ターミナル画面を基盤に置いたポータブルかつ軽量な開発環境
 
@@ -24,98 +24,49 @@
 実行時に受け取った予期しないデータは、予想できない挙動を引き起こしトラブルシュートに時間が掛かりがちです。
 これらの予期しない実行時の誤動作を検知し未然にエラーとして報告することが可能です。
 
-[Vim]: https://www.vim.org/
-
- Table of Contents
+ モジュール一覧
 ------------------------------------
 
-[TOC-BEGIN]: <> ""
-[TOC-END]: <> ""
-[TOC-COMMAND]: <> "r! cat profile/README.md | pandoc -s --toc --wrap=none  --from=markdown --to=markdown | sed -n '1,/^ *$/p'"
-
-
- Frontend Development with Thankspedia.js
-----------------------------------------
-
-[React-Rerenderers.js][rerenderers] is a simple and yet effective framework for
-frontend application development. It should preferably, but not necessarily be
-used in Thankspedia.js frontend applications.
-
-[React-Rerenderers.js][rerenderers] define some coding conventions. Thankspedia.js
-recommends applications to follow the conventions. For further information
-about the conventions, see [React-Rerenderers.js][rerenderers] official
-documentation.
-
-[frontend]: https://github.com/kombucha-js/.github/wiki/Frontend-Development
-
-
- Backend Development with Thankspedia.js
----------------------------------------
-There is a convention which defines the form of every module for the backend
-application with **Thankspedia.js**. For further information, please see [Backend Development with Thankspedia.js][backend].
-
-[backend]: https://github.com/kombucha-js/.github/wiki/Backend-Development
-
-
- Modules
-------------------------------------
-
-Thankspedia.js consists sixteen modules.
+**サンクスペディア.js** は約１５個のモジュールによって構成されています。それぞれのモジュールは独立しており、個別に利用することが可能です。
 
 | Name                                                                    | Description                                                                                    |
 | ----------------------------------------------------------------------  | ---------------------------------------------------------------------------------------------  |
-| [React-Rerenderers.js][react-rerenderers]                               | A framework for frontend applications                                                          |
-| [mixin-prototypes][mixin-prototypes]                                    | An implementation of multiple inheritance                                                      |
-| [Asynchronous-Context][asynchronous-context]                            | The super class for the objects defines all backend API methods                                |
-| [Asynchronous-Context-RPC][asynchronous-context-rpc]                    | A RPC-like framework for secure transactions between frontend and backend via https            |
-| [Authentication-Context][authentication-context]                        | Offer an abstract interface to implement login and logout                                      |
-| [Database-Postgresql-Context][database-postgresql-context]              | Offer a way to access PostgreSQL database servers                                              |
-| [database-postgresql-query-builder][database-postgresql-query-builder]  | An utility to build queries for PostgreSQL automatically                                       |
-| [crypto-web-token][crypto-web-token]                                    | Implement a JWT-like web token framework                                                       |
-| [prevent-undefined][prevent-undefined]                                  | Throw an error when it detected an access to a non-existing field                              |
-| [fold-args][fold-args]                                                  | Define a stable protocol to implemenent named arguments for methods                            |
-| [runtime-typesafety][runtime-typesafety]                                | Watch for input/output of methods and throw an error when it detected an unexpected value      |
-| [vanilla-schema-validator][vanilla-schema-validator]                    | A non-opinionated JavaScript schema validator; or a duck-typing runtime-type detector          |
-| [sql-named-parameters][sql-named-parameters]                            | Replace all keyword starts with a dollar sign as a named-parameter in SQL                      |
-| [sqlmacro][sqlmacro]                                                    | Implement ASP-like syntax in SQL                                                               |
-| [randomcat][randomcat]                                                  | An additional module which offers a function to generate a name of a cat randomly              |
-| [beep][beep]                                                            | An additional module to play a beep tone with a specified musical pitch                        |
+| [React-Rerenderers.js][react-rerenderers]                               | フロントエンド・アプリケーションの為のフレームワーク                                                    |
+| [mixin-prototypes][mixin-prototypes]                                    | 多重継承を実現する。ユーザーが定義したAPIをバックエンド上で実行する為、実行時に全APIの結合を行う。            |
+| [Asynchronous-Context][asynchronous-context]                            | 非同期関数の実行経路を追跡する為のフレームワーク。非同期関数として定義されたAPI関数群を contextクラスと呼ぶ。   |
+| [Asynchronous-Context-RPC][asynchronous-context-rpc]                    | RPC（リモートプロシージャコール）を実装するフレームワーク。APIをサービスとして起動する為のツール群を提供       |
+| [Authentication-Context][authentication-context]                        | 認証を行う為のフレームワーク。 asynchronous-context 上で動作するcontextクラス。                        |
+| [Database-Postgresql-Context][database-postgresql-context]              | PostgreSQLの呼び出しを行う。asynchronous-context 上で動作する context クラス                         |
+| [database-postgresql-query-builder][database-postgresql-query-builder]  | asynchronous-context API を定義する為のテンプレートを生成する。現在利用されていない。                    |
+| [crypto-web-token][crypto-web-token]                                    | フロントエンドアプリケーションの認証で利用する bearer トークン認証を実装する。                             |
+| [prevent-undefined][prevent-undefined]                                  | タイプミスによる変数名間違い・フィールド名間違い等々のプログラム上のエラーを検知する。現在利用されていない。廃止予定。     |
+| [fold-args][fold-args]                                                  | 名前付き引数と引数オーバーライドを定義するフレームワーク。                                               |
+| [runtime-typesafety][runtime-typesafety]                                | 実行時型チェックを実現する。関数呼び出しの異常な入力値と異常な出力値を検出し、エラーとして報告する。            |
+| [vanilla-schema-validator][vanilla-schema-validator]                    | 非オピニオネイテッドなバリデーション処理を行う為のフレームワーク、及びツール郡を提供する。                    |
+| [sql-named-parameters][sql-named-parameters]                            | PostgreSQLの為の SQL 名前付きパラメータを実装する。                                                  |
+| [sqlmacro][sqlmacro]                                                    | SQL上で ASP/PHPのような動的SQL生成を実現するためのフレームワーク                                        |
+| [randomcat][randomcat]                                                  | 未使用。廃止予定。                                                                                |
+| [beep][beep]                                                            | 未使用。廃止予定。                                                                                 |
 
-[randomcat]:                         https://github.com/kombucha-js/randomcat/
-[beep]:                              https://github.com/kombucha-js/beep/
+[rerenderers]:                       https://github.com/thankspedia/react-rerenderers/
+[react-rerenderers]:                 https://github.com/thankspedia/react-rerenderers/
+[asynchronous-context]:              https://github.com/thankspedia/asynchronous-context/
+[asynchronous-context-rpc]:          https://github.com/thankspedia/asynchronous-context-rpc/
+[prevent-undefined]:                 https://github.com/thankspedia/prevent-undefined/
+[fold-args]:                         https://github.com/thankspedia/fold-args/
+[runtime-typesafety]:                https://github.com/thankspedia/runtime-typesafety/
+[database-postgresql-query-builder]: https://github.com/thankspedia/database-postgresql-query-builder/
+[vanilla-schema-validator]:          https://github.com/thankspedia/vanilla-schema-validator/
+[sql-named-parameters]:              https://github.com/thankspedia/sql-named-parameters/
+[sqlmacro]:                          https://github.com/thankspedia/sqlmacro/
+[mixin-prototypes]:                  https://github.com/thankspedia/mixin-prototypes/
+[authentication-context]:            https://github.com/thankspedia/authentication-context/
+[database-postgresql-context]:       https://github.com/thankspedia/database-postgresql-context/
+[crypto-web-token]:                  https://github.com/thankspedia/crypto-web-token/
+[randomcat]:                         https://github.com/thankspedia/randomcat/
+[beep]:                              https://github.com/thankspedia/beep/
 
-[rerenderers]:                       https://github.com/kombucha-js/react-rerenderers/
-[react-rerenderers]:                 https://github.com/kombucha-js/react-rerenderers/
-[asynchronous-context]:              https://github.com/kombucha-js/asynchronous-context/
-[asynchronous-context-rpc]:          https://github.com/kombucha-js/asynchronous-context-rpc/
-[prevent-undefined]:                 https://github.com/kombucha-js/prevent-undefined/
-[fold-args]:                         https://github.com/kombucha-js/fold-args/
-[runtime-typesafety]:                https://github.com/kombucha-js/runtime-typesafety/
-[database-postgresql-query-builder]: https://github.com/kombucha-js/database-postgresql-query-builder/
-[vanilla-schema-validator]:          https://github.com/kombucha-js/vanilla-schema-validator/
-[sql-named-parameters]:              https://github.com/kombucha-js/sql-named-parameters/
-[sqlmacro]:                          https://github.com/kombucha-js/sqlmacro/
-[mixin-prototypes]:                  https://github.com/kombucha-js/mixin-prototypes/
-[authentication-context]:            https://github.com/kombucha-js/authentication-context/
-[database-postgresql-context]:       https://github.com/kombucha-js/database-postgresql-context/
-[crypto-web-token]:                  https://github.com/kombucha-js/crypto-web-token/
-[randomcat]:                         https://github.com/kombucha-js/randomcat/
-[beep]:                              https://github.com/kombucha-js/beep/
-
-[LIST-COMMAND]: <> "gh repo list --json 'url' kombucha-js --jq '.[].url'"
-
-
-
-  🙏🏿 🥰 Thankspedia Project 🥰 🙏🏻
-----------------------------------------
-**Thankspedia.js** is developed as a part of a project called [Thankspedia][].
-Thankspedia is a project to implement an infrastructure for thankfulness, not
-for money; it tries to transfer not an amount of money, but an amount of
-thankfulness. For further information about Thankspedia, please refer its
-[website][Thankspedia].
-
-[Thankspedia]: https://github.com/thankspedia/
-
+[LIST-COMMAND]: <> "gh repo list --json 'url' thankspedia --jq '.[].url'"
 
 🌈 Contribution guidelines
 ---------------------------------------------------------------
@@ -123,7 +74,7 @@ thankfulness. For further information about Thankspedia, please refer its
 
 **Thankspedia.js** is distributed as GPL v3.0.
 
-Please send feedbacks or report issues at [github.com](https://github.com/kombucha-js)
+Please send feedbacks or report issues at [github.com](https://github.com/thankspedia)
 
 The primary maintainer is [Atsushi Oka][ats4u].
 
