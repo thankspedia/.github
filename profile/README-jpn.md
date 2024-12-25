@@ -1,68 +1,35 @@
- 🍵 Thankspedia.js 🍵
+  Thankspedia.js 
 ===================
+**サンクスペディア.js** は、株式会社東京技術計算コンサルタント倉川　清志社長が提唱する「感謝のインフラ」を実現する為に作成されたフレームワークです。
 
-**Thankspedia.js** is (at least we believe) the easiest, the most robust,
-zero-dependent, and strongly opinionated all-in-one frontend/backend application
-framework.
+世界を感謝の気持ちで溢れさせる為のインフラ基盤として設計されたサンクスペディア.jsは、オピニオネイテッド型フレームワークを採用、RPC(リモートプロシージャ呼び出し）を実装しました。
+このアーキテクチャによりフロントエンドからシームレスにバックエンドのAPIを呼び出しが可能となり、迅速な開発が実現します。
 
-With Thankspedia.js, you can scalably design web API methods and the methods can be
-deployed with minimum overhead. Frontend applications can access to the API
-methods with minimum overhead as if they are general functions deployed in ESM
-modules.
+サンクスペディア.jsは Node.js/Firefox/Chrome等々のESM2022以降のJavaScriptに対応した実行環境で動作します。
 
-It includes many new ideas to accomplish efficiency of development; such as
-[runtime-typesafety][] which implements input/output validation on runtime, or
-as [vanilla-schema-validator][] which allows you to find missing and wrong typed
-field values in your JSON requests right after you did something wrong.
+  特徴
+================  
+- AS/400 を理想としたアーキテクチャを模倣
+- 簡易性より安定性を重視した設計
+- フロントエンド／バックエンドを区別せずに同時に開発するスタイル
+- マルチユーザー・マルチオーガニゼーションの認証にデフォルトで対応
+- 自動バリデーション
+- ORM利用を強制しないデータベース駆動の開発
+- 実行時型チェック
+- フロントエンドは高速な Vine を採用
+- バベルへの依存性を排除
+- ターミナル画面を基盤に置いたポータブルかつ軽量な開発環境
 
-It also includes a unique frontend application framework called [React-Rerenderers.js][rerenderers]
-which frees developers from annoying problems which you often encounter in
-React.js application development such as Infinite Rendering Loops, Prop Drilling
-problem, Provider Hell and other problems. For further information, see
-[React-Rerenderers.js][rerenderers].
-
-  🐶 Features 🐶
------------------
-- [Babel Free](https://art-deco.github.io/nodetools/babel-when-open-source-is-not-free-sofware.html)
-- It runs out of the box
-- Very unique architecture which offers you simplicity in extreme
-- Prioritize durability and robustness than easiness
-- Zero-dependent
-- Built-in JWT like authentication scheme
-- Built-in runtime typecheck/schema validator
-- NO ORM based programming SQL without object mapping
-
- 🗼 Design Goal 🗼
--------------------
-As the design goal of **Thankspedia.js**, there are seven agendas.
-
-1. Enable development both frontend applications and backend applications
-   seamlessly and simultaneously.
-2. Implement a reliable development environment without complicating
-   transpilers such as Babel TypeScript.
-3. Offer an infrastructure to implement Remote Procedure Call between frontend
-   applications and backend applications so that a frontend application can
-   access to methods on an backend application as if    the methods are deployed
-   in the frontend application.
-4. Offer practical methods to access databases directly without any
-   Object-Relational Mapping (ORM) solutions.
-5. Make the development process as simple as possible such that it is
-   sufficient to use only [Vim][] in a terminal-emulator for the development. It
-   should not be necessary to use fancy editors such as VSCode or others.
-6. Enable developments of super-large scalable database systems as if it were
-   [AS/400](https://en.wikipedia.org/wiki/IBM_AS/400).
-7. The applications must sustainably run without manual maintenance for
-   decades.
+サンクスペディア.js は、従来のJavaScript開発での弱点だった実行型チェックに対応しています。
+実行時に受け取った予期しないデータは、予想できない挙動を引き起こしトラブルシュートに時間が掛かりがちです。
+これらの予期しない実行時の誤動作を検知し未然にエラーとして報告することが可能です。
 
 [Vim]: https://www.vim.org/
-
 
  Table of Contents
 ------------------------------------
 
 [TOC-BEGIN]: <> ""
-
-
 [TOC-END]: <> ""
 [TOC-COMMAND]: <> "r! cat profile/README.md | pandoc -s --toc --wrap=none  --from=markdown --to=markdown | sed -n '1,/^ *$/p'"
 
