@@ -1,11 +1,11 @@
- 🍵 Kombucha.js 🍵
+ 🍵 Thankspedia.js 🍵
 ===================
 
-**Kombucha.js** is (at least we believe) the easiest, the most robust,
+**Thankspedia.js** is (at least we believe) the easiest, the most robust,
 zero-dependent, and strongly opinionated all-in-one frontend/backend application
 framework.
 
-With Kombucha.js, you can scalably design web API methods and the methods can be
+With Thankspedia.js, you can scalably design web API methods and the methods can be
 deployed with minimum overhead. Frontend applications can access to the API
 methods with minimum overhead as if they are general functions deployed in ESM
 modules.
@@ -34,7 +34,7 @@ problem, Provider Hell and other problems. For further information, see
 
  🗼 Design Goal 🗼
 -------------------
-As the design goal of **Kombucha.js**, there are seven agendas.
+As the design goal of **Thankspedia.js**, there are seven agendas.
 
 1. Enable development both frontend applications and backend applications
    seamlessly and simultaneously.
@@ -67,14 +67,14 @@ As the design goal of **Kombucha.js**, there are seven agendas.
 [TOC-COMMAND]: <> "r! cat profile/README.md | pandoc -s --toc --wrap=none  --from=markdown --to=markdown | sed -n '1,/^ *$/p'"
 
 
- Frontend Development with Kombucha.js
+ Frontend Development with Thankspedia.js
 ----------------------------------------
 
 [React-Rerenderers.js][rerenderers] is a simple and yet effective framework for
 frontend application development. It should preferably, but not necessarily be
-used in Kombucha.js frontend applications.
+used in Thankspedia.js frontend applications.
 
-[React-Rerenderers.js][rerenderers] define some coding conventions. Kombucha.js
+[React-Rerenderers.js][rerenderers] define some coding conventions. Thankspedia.js
 recommends applications to follow the conventions. For further information
 about the conventions, see [React-Rerenderers.js][rerenderers] official
 documentation.
@@ -82,10 +82,10 @@ documentation.
 [frontend]: https://github.com/kombucha-js/.github/wiki/Frontend-Development
 
 
- Backend Development with Kombucha.js
+ Backend Development with Thankspedia.js
 ---------------------------------------
 There is a convention which defines the form of every module for the backend
-application with **Kombucha.js**. For further information, please see [Backend Development with Kombucha.js][backend].
+application with **Thankspedia.js**. For further information, please see [Backend Development with Thankspedia.js][backend].
 
 [backend]: https://github.com/kombucha-js/.github/wiki/Backend-Development
 
@@ -93,7 +93,7 @@ application with **Kombucha.js**. For further information, please see [Backend D
  Modules
 ------------------------------------
 
-Kombucha.js consists sixteen modules.
+Thankspedia.js consists sixteen modules.
 
 | Name                                                                    | Description                                                                                    |
 | ----------------------------------------------------------------------  | ---------------------------------------------------------------------------------------------  |
@@ -141,7 +141,7 @@ Kombucha.js consists sixteen modules.
 
   🙏🏿 🥰 Thankspedia Project 🥰 🙏🏻
 ----------------------------------------
-**Kombucha.js** is developed as a part of a project called [Thankspedia][].
+**Thankspedia.js** is developed as a part of a project called [Thankspedia][].
 Thankspedia is a project to implement an infrastructure for thankfulness, not
 for money; it tries to transfer not an amount of money, but an amount of
 thankfulness. For further information about Thankspedia, please refer its
@@ -154,7 +154,7 @@ thankfulness. For further information about Thankspedia, please refer its
 ---------------------------------------------------------------
 - how can the community get involved?
 
-**Kombucha.js** is distributed as GPL v3.0.
+**Thankspedia.js** is distributed as GPL v3.0.
 
 Please send feedbacks or report issues at [github.com](https://github.com/kombucha-js)
 
