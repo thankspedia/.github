@@ -31,12 +31,12 @@
 
 | Name                                                                    | Description                                                                                    |
 | ----------------------------------------------------------------------  | ---------------------------------------------------------------------------------------------  |
-| [React-Rerenderers.js][react-rerenderers]                               | フロントエンド・アプリケーションの為のフレームワーク                                                    |
+| [react-rerenderers.js][react-rerenderers]                               | フロントエンド・アプリケーションの為のフレームワーク                                                    |
 | [mixin-prototypes][mixin-prototypes]                                    | 多重継承を実現する。ユーザーが定義したAPIをバックエンド上で実行する為、実行時に全APIの結合を行う。            |
-| [Asynchronous-Context][asynchronous-context]                            | 非同期関数の実行経路を追跡する為のフレームワーク。非同期関数として定義されたAPI関数群を contextクラスと呼ぶ。   |
-| [Asynchronous-Context-RPC][asynchronous-context-rpc]                    | RPC（リモートプロシージャコール）を実装するフレームワーク。APIをサービスとして起動する為のツール群を提供       |
-| [Authentication-Context][authentication-context]                        | 認証を行う為のフレームワーク。 asynchronous-context 上で動作するcontextクラス。                        |
-| [Database-Postgresql-Context][database-postgresql-context]              | PostgreSQLの呼び出しを行う。asynchronous-context 上で動作する context クラス                         |
+| [asynchronous-context][asynchronous-context]                            | 非同期関数の実行経路を追跡する為のフレームワーク。非同期関数として定義されたAPI関数群をcontextクラスと呼ぶ。   |
+| [asynchronous-context-rpc][asynchronous-context-rpc]                    | RPC（リモートプロシージャコール）を実装するフレームワーク。contextクラスとして定義されたAPIをサービスとして起動する為のツール群を提供       |
+| [authentication-context][authentication-context]                        | 認証を行う為のフレームワーク。 asynchronous-context 上で動作するcontextクラス。                        |
+| [database-postgresql-context][database-postgresql-context]              | PostgreSQLの呼び出しを行う。asynchronous-context 上で動作する context クラス                         |
 | [database-postgresql-query-builder][database-postgresql-query-builder]  | asynchronous-context API を定義する為のテンプレートを生成する。現在利用されていない。                    |
 | [crypto-web-token][crypto-web-token]                                    | フロントエンドアプリケーションの認証で利用する bearer トークン認証を実装する。                             |
 | [prevent-undefined][prevent-undefined]                                  | タイプミスによる変数名間違い・フィールド名間違い等々のプログラム上のエラーを検知する。現在利用されていない。廃止予定。     |
