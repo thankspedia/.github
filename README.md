@@ -1,1 +1,1 @@
-profile/README.md
+profile/README-jpn.md
